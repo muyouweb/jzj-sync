@@ -1,0 +1,17 @@
+{
+  "name": "baodian-develop/bao-sync",
+  "autoload": {
+    "psr-4": {"BaodSync\\":"src/"}
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@git.devbao.cn:project-admin/doctrine-dbal.git"
+    }
+  ],
+  "require": {
+    "doctrine/dbal": "v1.0.0.1",
+    "php-amqplib/php-amqplib": ">=2.6.1",
+    "vlucas/phpdotenv": "^2.4"
+  }
+}
